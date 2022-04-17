@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -8,6 +9,10 @@ body {
   background-color: #FFF6EA;
   padding-top: 100px;
   position: relative;
+}
+
+.MiddleContainer{
+  margin: 100px 0;
 }
 
 
@@ -39,6 +44,17 @@ h3 {
   font-weight: normal;
 }
 
+p {
+  line-height:2;
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 5%;
+}
+
 .pro {
   text-decoration: underline;
 }
@@ -59,6 +75,13 @@ h3 {
 .footer-link{
   color:  #11999E;
   padding-top: 100px ;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
 }
 
 .skill-row{
@@ -80,17 +103,10 @@ h3 {
 
 
 .my-info{
-  color:#40514E;
+  width: 30%;
+  margin: auto;
 }
 
-
-
-hr {
-  border-color: grey;
-  border-style: dotted none none none;
-  border-width: 5px;
-  width: 5%;
-}
 
 
 .photo-like{
@@ -133,4 +149,6 @@ hr {
 
 .copyright-foot{
   color: #11999E;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
